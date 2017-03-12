@@ -1,3 +1,3 @@
 # emy
 
-A tiny EventEmitter implementation.
+A tiny event emitter.
