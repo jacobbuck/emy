@@ -1,0 +1,28 @@
+{
+  "name": "emy",
+  "version": "0.0.1",
+  "description": "A tiny EventEmitter implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbuck/emy.git"
+  },
+  "keywords": [
+    "emit",
+    "emitter",
+    "event",
+    "eventemitter",
+    "events",
+    "listener",
+    "pubsub"
+  ],
+  "author": "Jacob Buck <buck.jacob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobbuck/emy/issues"
+  },
+  "homepage": "https://github.com/jacobbuck/emy#readme"
+}
