@@ -1,7 +1,7 @@
 {
   "name": "emy",
   "version": "1.0.0",
-  "description": "A tiny event emitter.",
+  "description": "An adorably small event emitter/pubsub library.",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [

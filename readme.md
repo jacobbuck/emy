@@ -1,6 +1,6 @@
 # emy
 
-A tiny event emitter/pubsub library.
+An adorably small event emitter/pubsub library.
 
 ## Usage
 
