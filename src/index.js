@@ -1,9 +1,9 @@
 const emy = () => {
   const listeners = new WeakSet();
   
-  const publish = (...args) => {
+  const publish = (event) => {
     listeners.forEach(listener => {
-      listener(...args);
+      listener(event);
     });
   };
   
