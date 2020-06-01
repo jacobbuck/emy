@@ -68,4 +68,4 @@ Returns a function which unregisters the listener when called.
 
 ## Browser Support
 
-Works on all modern browsers. Older browser require a `WeakSet` polyfill.
+Works on all modern browsers. Older browsers require a `WeakSet` polyfill.
