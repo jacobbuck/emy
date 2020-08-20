@@ -10,7 +10,7 @@ import emy from 'emy';
 const [publish, subscribe] = emy();
 
 const unsubscribe = subscribe((event) => {
-  console.log(`Hello ${event.value}!`)
+  console.log(`Hello ${event.value}!`);
 });
 
 publish({ value: 'world' });
@@ -20,9 +20,9 @@ unsubscribe();
 
 ## API
 
-### `emy()` 
+### `emy()`
 
-Creates a new event emitter. 
+Creates a new event emitter.
 
 ```js
 const [publish, subscribe] = emy();
@@ -44,7 +44,7 @@ publish({ value: 'world' });
 
 #### Parameters
 
-* `event` any value to be passed to each listener.
+- `event` any value to be passed to each listener.
 
 ### `subscribe(listener)`
 
@@ -52,7 +52,7 @@ Register a listener.
 
 ```js
 const unsubscribe = subscribe((event) => {
-  console.log(`Hello ${event.value}!`)
+  console.log(`Hello ${event.value}!`);
 });
 
 unsubscribe();
@@ -60,7 +60,7 @@ unsubscribe();
 
 #### Parameters
 
-* `listener` function to call when event is published.
+- `listener` function to call when event is published.
 
 #### Return value
 
