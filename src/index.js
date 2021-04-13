@@ -1,5 +1,5 @@
 const emy = () => {
-  const listeners = new WeakSet();
+  const listeners = new Set();
 
   const publish = (event) => {
     listeners.forEach((listener) => {
