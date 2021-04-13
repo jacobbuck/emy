@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+
+- Fixed a bug where `publish` would crash due to handlers being stored in `WeakSet`.
+
 ## v1.0.1 - 2020-08-20
 
 ### Added
