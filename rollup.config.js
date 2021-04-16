@@ -4,6 +4,7 @@ export default {
   input: 'src/index.js',
   output: [
     {
+      exports: 'default',
       file: 'lib/index.cjs.js',
       format: 'cjs',
     },
