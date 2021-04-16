@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Updated devDependencies.
+
 ### Fixed
 
 - Fixed a bug where `publish` would crash due to handlers being stored in `WeakSet`.
