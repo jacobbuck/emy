@@ -1,5 +1,5 @@
 const emy = () => {
-  const listeners = new Set();
+  const listeners = new Map();
 
   const publish = (event) => {
     listeners.forEach((listener) => {
@@ -8,9 +8,10 @@ const emy = () => {
   };
 
   const subscribe = (listener) => {
-    listeners.add(listener);
+    const key = {};
+    listeners.set(key, listener);
     return () => {
-      listeners.remove(listener);
+      listeners.delete(key);
     };
   };
 
